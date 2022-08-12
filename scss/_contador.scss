@@ -1,8 +1,8 @@
 
 
 .contador{
-    height: 100vh;
-    width: 100%;
+  
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,15 +27,15 @@
  text-transform: uppercase;
  color: white;
  margin-bottom: 1rem;
- font-size: 26px;
+ font-size: 15px;
  font-weight: 600;
 }
 
 .number{
  color: white;
  padding: 1rem 2rem;
- background-color: black;
- font-size: 80px;
+ background-color: rgb(10, 49, 10);
+ font-size: 20px;
  position: relative;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .number::after{
- content: ":";
+ content: "";
  color: white;
  font-size: inherit;
  position: absolute;

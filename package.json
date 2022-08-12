@@ -243,5 +243,13 @@
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriz07/https---github.com-adriz07-tienda-online.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adriz07/https---github.com-adriz07-tienda-online/issues"
+  },
+  "homepage": "https://github.com/adriz07/https---github.com-adriz07-tienda-online#readme",
   "description": ""
 }
