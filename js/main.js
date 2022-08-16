@@ -51,797 +51,83 @@ const second = 1000,
 let productos = [
     {
     name: "azucar organica",
-    price: "",
+    price: "$120",
     stock: "",
     condition: "",
-    id: ""
+    id: "0"
 },
 {
     name: "leche almendras",
-    price: "210",
+    price: "$210",
     stock: "456",
     condition: "new",
-    id: ""
+    id: "1"
 },
 {
     name: "surtido frutas secas",
-    price: "123",
+    price: "$150",
     stock: "4564",
     condition: "new",
-    id: ""
+    id: "2"
 },
 {
     name: "volcan pre-mezcla",
-    price: "112",
+    price: "$140",
     stock: "44",
     condition: "new",
-    id: ""
+    id: "3"
 },
 {
     name: "agua botx500cc",
-    price: "456",
+    price: "$90",
     stock: "33",
     condition: "new",
-    id: ""
+    id: "4"
 },
 {
     name: "cafe en capsulas",
-    price: "220",
+    price: "$1220",
     stock: "10",
     condition: "new",
-    id: ""
+    id: "5"
 },
 {
     name: "cafe molido",
-    price: "550",
+    price: "$550",
     stock: "132",
     condition: "new",
-    id: ""
+    id: "6"
 },
 {
     name: "aceite oliva",
-    price: "800",
+    price: "$800",
     stock: "210",
     condition: "new",
-    id: ""
+    id: "7"
 },
 {
     name: "salsa picante ",
-    price: "336",
+    price: "$330",
     stock: "21",
     condition: "new",
-    id: ""
+    id: "8"
 },
 {
     name: "snacks naturales",
-    price: "650",
+    price: "$650",
     stock: "12",
     condition: "new",
-    id: ""
+    id: "9"
 },
 {
     name: "salsa ceasar",
     price: "210",
     stock: "35",
     condition: "new",
-    id: ""
+    id: "10"
 },
 {
     name: "",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: "23"
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
-    price: "",
-    stock: "",
-    condition: "",
-    id: ""
-},
-{
-    name: "julio",
     price: "",
     stock: "",
     condition: "",
@@ -978,15 +264,37 @@ console.log(nombre.stock);
 function descuento ( numero, porcentaje){
     return Math.abs ( numero * porcentaje / 100 - numero)
  }
- console.log (descuento( 100, 15 ))
+ console.log (descuento( 550, 40 ))
 
 
  // calculo de iva
-
-
+ 
  const precioBruto = parseInt(prompt("ingresar precio bruto"))
 
  const precioFinal = precioBruto * 1.21 
-
+ 
  alert(`precioFinal: ${precioFinal} `);
+
+
+
+ //enlace html
+
+
+
+ const productoCatalogoHTML = (producto) => {
+ return ` <div class="card" style="width: 13rem;">
+ <img src="./imagenes/Fotos para web/card-aceite oliva.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+ <h5 class="card-title">${producto.name}</h5>
+ <p class="card-text">${producto.price}</p>
+ <button id="btn-catalogo-${producto.id}" class="btn btn-primary">Agregar al carrito</button>
+</div>
+</div> `;
+};
+
+
+
+
+
+console.log(productoCatalogoHTML(productos[5]))
 
