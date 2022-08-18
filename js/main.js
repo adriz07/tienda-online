@@ -269,13 +269,15 @@ function descuento ( numero, porcentaje){
 
  // calculo de iva
  
- const precioBruto = parseInt(prompt("ingresar precio bruto"))
+ const precioBruto  = parseInt(prompt("ingresar precio bruto"))
 
  const precioFinal = precioBruto * 1.21 
  
  alert(`precioFinal: ${precioFinal} `);
 
 
+
+ 
 
  //enlace html
 
@@ -297,4 +299,22 @@ function descuento ( numero, porcentaje){
 
 
 console.log(productoCatalogoHTML(productos[5]))
+
+
+
+
+// eventos
+
+const formulario = document.getElementById("form");
+
+formulario.addEventListener("submit", function(e){
+
+
+
+  e.preventDefault();
+  let mail = document.getElementById ("email-form").value
+  console.log(mail)
+
+
+})
 
