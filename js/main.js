@@ -36,7 +36,7 @@ const second = 1000,
     let now = new Date().getTime()
     distance = countDown - now;
 
-   Hours.innerText = Math.floor((distance%(day))/(hour))
+   hours.innerText = Math.floor((distance%(day))/(hour))
    min.innerText = Math.floor((distance%(day))/(minute))
    seg.innerText = Math.floor((distance%(minute))/(second));
 },0)
@@ -96,4 +96,8 @@ formulario.addEventListener("submit", function(e){
 
 
 })
+
+
+
+//librerias 
 
