@@ -57,8 +57,7 @@
     border-color: #1EAEDB; }
   
   
-  /* Forms
-  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+ 
   input[type="email"],
   input[type="number"],
   input[type="search"],
@@ -69,13 +68,13 @@
   textarea,
   select {
     height: 38px;
-    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    padding: 6px 10px; 
     background-color: #fff;
     border: 1px solid #D1D1D1;
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box; }
-  /* Removes awkward default styles on some inputs for iOS */
+  
   input[type="email"],
   input[type="number"],
   input[type="search"],
@@ -197,7 +196,9 @@
   .u-pull-left {
     float: left; }
   
-  
+ .carro{
+  align-items: flex-end;
+ }
 
   hr {
     margin-top: 3rem;

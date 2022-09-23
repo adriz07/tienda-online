@@ -37,7 +37,7 @@
      "stock": 74,
     "condition": "new",
      "Img":"./imagenes/Fotos para web/salsa picante.jpg",
-    " id": 4
+    "id": 4
  },
  {
     "nombre": "Aceite oliva",
@@ -57,10 +57,10 @@
  },
  {
     "nombre": "yerba mate",
-    " precio": 330,
-    " stock": 120,
-    " condition": "new",
+    "precio": 330,
+    "stock": 120,
+    "condition": "new",
     " Img":"./imaenes/Fotos para web/Mesa de trabajo 36.jpg",
-    " id": 7
+    "id": 7
 }
 ]

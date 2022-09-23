@@ -56,24 +56,6 @@ const second = 1000,
 
 
 
-// Funcion para determinar el porcentaje de descuento a un producto
-
-
-function descuento ( numero, porcentaje){
-    return Math.abs ( numero * porcentaje / 100 - numero)
- }
- console.log (descuento( 550, 40 ))
-
-
- // calculo de iva
- 
- const precioBruto  = parseInt(prompt("ingresar precio bruto"))
-
- const precioFinal = precioBruto * 1.21 
- 
- alert(`precioFinal: ${precioFinal} `);
-
-
 
  
 
